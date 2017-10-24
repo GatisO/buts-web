@@ -1,0 +1,35 @@
+div{
+    width: 80px; height: 120px;
+    position: absolute;
+    border: 1px dotted #B1B1B1;
+    text-align: center;
+}
+span{
+   
+    line-height: 120px;
+}
+div.div1{
+    background-color: #FFDE71;
+    left: 50px; top: 100px;
+    z-index: 1;
+}
+div.div2{
+    background-color: #E88E67;
+    left: 100px; top: 150px;
+    z-index: 2;
+}
+div.div3{
+    background-color: #FF7EE9;
+    left: 150px; top: 200px;
+    z-index: 3;
+}
+div.div4{
+    background-color: #7067E8;
+    left: 200px; top: 250px;
+    z-index: 4;
+}
+div.div5{
+    background-color: #62F2FF; 
+    left: 250px; top: 300px;
+    z-index: 5;
+}

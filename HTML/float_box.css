@@ -1,0 +1,41 @@
+div{
+    width: 200px; height: 300px;
+    float:  left;
+}
+
+div.div1{
+    background-color: #7B2A3B;
+}
+div.div2{
+    background-color: #E57661;
+}
+div.div3{
+    background-color: #F8C58C;
+}
+div.div4{
+    background-color: #F8E7A2;
+}
+div.div5{
+    background-color: #86DDB2;
+}
+div.div6{
+    background-color: #69F4BD;
+    float: right;
+    clear: right;
+}
+div.div7{
+    background-color: #319589;
+    float: right;
+}
+div.div8{
+    background-color: #344D6C;
+    float: right;
+}
+div.div9{
+    background-color: #372650;
+    float: right;
+}
+div.div10{
+    background-color: #3E1B3C;
+    float: right;
+}
