@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change size</title>
+    <meta charset="UTF-8">
+    <script>
+        function changeSize(){
+            var fontSize = Math.random() * 10;
+            document.getElementById("izmers").style.fontSize=(fontSize + "em");
+
+        }
+    </script>
+</head>
+<body>
+    <h2>Change font size</h2>
+    <p id="izmers">Javascript modify CSS style</p>
+    <button type="button" onclick="changeSize()">Mainīt izmēru!</button>
+
+</body>
+</html>

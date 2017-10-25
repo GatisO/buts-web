@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ievades logs</title>
+    <meta charset="UTF-8">
+    <script>
+        function hi()
+        {
+            var vards = prompt("Ievadiet savu vārdu: ","");
+            var uzvards = prompt("Ievadi savu uzvārdu: ", "");
+            var vecums = prompt("Ievadi savu vecumu: ", " ");
+            var teksts = "Sveiki, " + vards + " " + uzvards + "! Tev ir " + vecums + " gadi un tu esi dzimis " + (2017-vecums) + ". gadā.";
+
+            if (vards != null && vards !="") {
+                document.write(teksts);
+            } else {
+                document.write("Sveiki! Paliekat nezināms!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="hi()" value="Sveiks!">
+
+</body>
+</html>
