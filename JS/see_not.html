@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>See not</title>
+    <meta charset="UTF-8">
+    <style>
+        div{
+            width: 130px;
+            height: 50px;
+            border: 1px solid black;
+            background-color: lightgray;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function hideShow(){
+            var isHidden = document.getElementById('p1').style.display;
+            if (isHidden == "none") {
+                document.getElementById('p1').style.display="block";
+            } else {
+                document.getElementById('p1').style.display="none";               
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p id="p1">Kaut kāds teksts.</p>
+    </div>  
+    <input type="button" value="Show or hide" onclick="hideShow()">
+</body>
+</html>
